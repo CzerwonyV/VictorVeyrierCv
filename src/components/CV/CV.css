@@ -1,0 +1,76 @@
+.TitleInText {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .TitleGroup {
+    font-size: 1.5rem;
+    border-bottom: solid rgb(253, 190, 38);
+    margin-bottom: 0.7rem;
+    padding-bottom: 0.7rem;
+  }
+  
+  .LeftPart {
+    background-color: black;
+    padding: 3vh;
+    color: white;
+    width: 40%;
+  }
+  
+  #GeneralSkill {
+    margin-top: 0.7rem;
+  }
+  
+  .RigthPart {
+    background-color: white;
+    padding: 3vh;
+    color: black;
+    width: 80%;
+    height: 100%;
+  }
+  
+  .CVContent {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .TextGroupFormations {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .TitleInTextFormation {
+    float: left;
+  }
+  
+  .TextContactCV {
+    color: white;
+  }
+  
+  .TextContact:hover {
+    color: white;
+  }
+  
+  #logoLinkedin {
+    color: #0077b5;
+  }
+  
+  #logoGithub {
+    color: #24292e;
+  }
+  
+  @media screen and (max-width: 415px) {
+    .CVContent {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  
+    .LeftPart {
+      width: auto;
+    }
+  
+    .RigthPart {
+      width: auto;
+    }
+  }
+  

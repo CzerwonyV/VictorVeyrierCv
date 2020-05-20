@@ -1,0 +1,13 @@
+.PortFolioContent {
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: black !important;
+  }
+  
+  @media screen and (max-width: 415px) {
+    .PortFolioContent {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+  }
+  

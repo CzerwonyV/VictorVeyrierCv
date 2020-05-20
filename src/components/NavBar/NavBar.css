@@ -1,0 +1,51 @@
+.linkNavBar {
+    color: white;
+  }
+  
+  .linkNavBar:hover {
+    color: white;
+    text-decoration: underlines;
+  }
+  
+  .linkTitleNavBar {
+    color: white;
+    font-size: 1.5rem;
+  }
+  
+  .linkTitleNavBar:hover {
+    color: white;
+    text-decoration: none;
+  }
+  
+  #TextNavBar {
+    color: white;
+  }
+  
+  .NavBarContent {
+    background-color: rgb(253, 190, 38);
+  }
+  
+  .linkNavBarPDFMobile {
+    display: none;
+    margin: 0;
+  }
+  
+  .linkNavBarPDFDestock {
+    margin: 0;
+  }
+  
+  @media screen and (max-width: 415px) {
+    #TextNavBar {
+      display: none;
+    }
+  
+    .linkNavBarPDFDestock {
+      display: none;
+      margin: 0;
+    }
+  
+    .linkNavBarPDFMobile {
+      display: block;
+    }
+  }
+  

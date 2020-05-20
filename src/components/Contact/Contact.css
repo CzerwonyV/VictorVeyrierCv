@@ -1,0 +1,21 @@
+.TextContact {
+    color: rgba(0, 0, 0, 0.9);
+  }
+  
+  #logoLinkedin {
+    color: #0077b5;
+  }
+  
+  #logoGithub {
+    color: #24292e;
+  }
+  
+  .list-group-item {
+    background-color: white !important;
+  }
+  
+  #ListGroupItemLast {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
