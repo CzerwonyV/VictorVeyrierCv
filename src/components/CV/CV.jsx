@@ -31,7 +31,7 @@ const CV = props => {
               <FontAwesomeIcon icon={faHtml5} id="logoHTML" />
               &nbsp;|&nbsp;CSS3&nbsp;
               <FontAwesomeIcon icon={faCss3Alt} id="logoCSS3" />
-              <br />- JavaScript&nbsp; 
+              <br />- JavaScript&nbsp;
               <FontAwesomeIcon icon={faJsSquare} id="logoJS" />
               <br />- React (JSX)&nbsp;
               <FontAwesomeIcon icon={faReact} id="logoReact" />
@@ -100,10 +100,8 @@ const CV = props => {
               </a>
             </div>
             <div>
-              victor.veyrier@icloud.com&nbsp;
-              <FontAwesomeIcon icon={faEnvelope} />
+              <a href="mailto:victor.veyrier@icloud.com" className="TextContactCV">victor.veyrier@icloud.com&nbsp;<FontAwesomeIcon icon={faEnvelope} /></a>
             </div>
-
             <div>
               06 04 19 79 97&nbsp;
               <FontAwesomeIcon icon={faMobile} />
