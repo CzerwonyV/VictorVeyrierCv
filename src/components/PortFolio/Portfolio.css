@@ -1,7 +1,9 @@
 .PortFolioContent {
-    padding-left: 20%;
-    padding-right: 20%;
-    background-color: black !important;
+  padding-left: 15% !important;
+  padding-right: 15% !important;
+  background-color: #000 !important;
+  padding-bottom: 3%;
+  padding-top: 1%;
   }
   
   @media screen and (max-width: 415px) {

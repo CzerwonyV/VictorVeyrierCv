@@ -26,7 +26,6 @@
     padding: 3vh;
     color: black;
     width: 80%;
-    height: 100%;
   }
   
   .CVContent {
@@ -47,7 +46,7 @@
     color: white;
   }
   
-  .TextContact:hover {
+  .TextContactCV:hover {
     color: white;
   }
   

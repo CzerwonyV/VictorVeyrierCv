@@ -3,17 +3,15 @@
   }
   
   .btn-secondary {
-    background-color: rgb(253, 190, 38);
-    border-color: rgb(253, 190, 38);
-    color: black;
+    background-color: rgb(253, 190, 38) !important;
+    border-color: rgb(253, 190, 38) !important;
+    color: black !important;
   }
   
   .btn-secondary:hover {
-    background-color: rgb(253, 190, 38);
-    border-color: rgb(253, 190, 38);
-    color: black;
+    background-color: rgb(253, 190, 38) !important;
+    border-color: rgb(253, 190, 38) !important;
+    color: black !important;
   }
-  
-  @media screen and (min-width: 769px) {
-  }
+
   
