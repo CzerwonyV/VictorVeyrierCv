@@ -8,8 +8,8 @@
   
   @media screen and (max-width: 415px) {
     .PortFolioContent {
-      padding-left: 5%;
-      padding-right: 5%;
+      padding-left: 2% !important;
+      padding-right: 2% !important;
     }
   }
   
