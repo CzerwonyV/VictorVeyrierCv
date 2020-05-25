@@ -27,7 +27,7 @@ const AroundTheWorldCard = props => {
             Hackathon 1, de la Wild Code School. Réalisé du 29 Avril 2020 au 30 Avril 2020. Equipe de 3 personnes. Fait avec JSReact, ReactStrap, CSS3. Le but était de réaliser une Application Web en 32H sur une API de WebCam.
           </CardText>
           <a
-            href="https://born-in-space.netlify.app/"
+            href="https://around-the-world-hackathon.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
