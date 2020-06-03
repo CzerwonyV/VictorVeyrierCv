@@ -3,14 +3,14 @@
   }
   
   .btn-secondary {
-    background-color: rgb(253, 190, 38) !important;
-    border-color: rgb(253, 190, 38) !important;
+    background-color: #0CD8FF!important;
+    border-color: #0CD8FF !important;
     color: black !important;
   }
   
   .btn-secondary:hover {
-    background-color: rgb(253, 190, 38) !important;
-    border-color: rgb(253, 190, 38) !important;
+    background-color: #0CD8FF !important;
+    border-color: #0CD8FF !important;
     color: black !important;
   }
 

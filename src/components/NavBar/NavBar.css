@@ -1,28 +1,28 @@
 .linkNavBar {
-    color: white;
+    color: Black;
   }
   
   .linkNavBar:hover {
-    color: white;
+    color: Black;
     text-decoration: underlines;
   }
   
   .linkTitleNavBar {
-    color: white;
+    color: Black;
     font-size: 1.5rem;
   }
   
   .linkTitleNavBar:hover {
-    color: white;
+    color: Black;
     text-decoration: none;
   }
   
   #TextNavBar {
-    color: white;
+    color: Black;
   }
   
   .NavBarContent {
-    background-color: rgb(253, 190, 38);
+    background-color: #0CD8FF;
   }
   
   .linkNavBarPDFMobile {
