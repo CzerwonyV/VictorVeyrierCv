@@ -53,8 +53,8 @@ const NavBarCV = props => {
                     href="https://github.com/CzerwonyV/CzerwonyV/files/4658962/VictorVeyrierCV.pdf"
                     download
                   >
-                    <p className="linkNavBarPDFDestock">Télécharger PDF</p>
-                    <p className="linkNavBarPDFMobile">PDF</p>
+                    <p className="linkNavBarPDFDestock">Télécharger mon CV</p>
+                    <p className="linkNavBarPDFMobile">CV en format PDF</p>
                   </a>
                 </NavLink>
               </NavItem>

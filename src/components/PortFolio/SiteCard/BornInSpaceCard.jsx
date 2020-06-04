@@ -7,6 +7,13 @@ import {
   CardTitle,
   Button
 } from "reactstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faGithub
+} from "@fortawesome/free-brands-svg-icons";
+import {
+  faExternalLinkAlt
+} from "@fortawesome/free-solid-svg-icons";
 import "./Card.css";
 
 const BornInSpaceCard = props => {
@@ -33,7 +40,14 @@ const BornInSpaceCard = props => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button>Voir Le site</Button>
+            <Button>Voir le site&nbsp;<FontAwesomeIcon icon={faExternalLinkAlt} id="logoGithubCV" /></Button>
+          </a>
+          <a
+            href="https://github.com/CzerwonyV/reims-0320-js-space-at-home"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button id="SpaceButton">Voir le dépôt&nbsp;<FontAwesomeIcon icon={faGithub} id="logoGithubCV" /></Button>
           </a>
         </CardBody>
       </Card>

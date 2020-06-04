@@ -7,6 +7,13 @@ import {
   CardTitle,
   Button
 } from "reactstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faGithub
+} from "@fortawesome/free-brands-svg-icons";
+import {
+  faExternalLinkAlt
+} from "@fortawesome/free-solid-svg-icons";
 import "./Card.css";
 
 const WildPostCard = props => {
@@ -30,11 +37,18 @@ const WildPostCard = props => {
             sur la WildCodeSchool.
           </CardText>
           <a
-            href="https://angelique-m08.github.io/Wild-post/"
+            href="https://czerwonyv.github.io/Wild-post/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button>Voir Le site</Button>
+            <Button>Voir le site&nbsp;<FontAwesomeIcon icon={faExternalLinkAlt} id="logoGithubCV" /></Button>
+          </a>
+          <a
+            href="https://github.com/CzerwonyV/Wild-post"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button id="SpaceButton">Voir le dépôt&nbsp;<FontAwesomeIcon icon={faGithub} id="logoGithubCV" /></Button>
           </a>
         </CardBody>
       </Card>

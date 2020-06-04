@@ -7,6 +7,10 @@ import {
   CardTitle,
   Button
 } from "reactstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faGithub
+} from "@fortawesome/free-brands-svg-icons";
 import "./Card.css";
 
 const AroundTheWorldCard = props => {
@@ -31,7 +35,14 @@ const AroundTheWorldCard = props => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button>Voir Le site</Button>
+            <Button>Voir le site</Button>
+          </a>
+          <a
+            href="https://github.com/CzerwonyV/reims-0320-js-around-the-world"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button id="SpaceButton">Voir le dépôt&nbsp;<FontAwesomeIcon icon={faGithub} id="logoGithubCV" /></Button>
           </a>
         </CardBody>
       </Card>
