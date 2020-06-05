@@ -11,6 +11,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub
 } from "@fortawesome/free-brands-svg-icons";
+import {
+  faExternalLinkAlt
+} from "@fortawesome/free-solid-svg-icons";
 import "./Card.css";
 
 const AroundTheWorldCard = props => {
@@ -35,7 +38,7 @@ const AroundTheWorldCard = props => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button>Voir le site</Button>
+            <Button>Voir le site&nbsp;<FontAwesomeIcon icon={faExternalLinkAlt} id="logoGithubCV" /></Button>
           </a>
           <a
             href="https://github.com/CzerwonyV/reims-0320-js-around-the-world"
