@@ -22,7 +22,7 @@
   }
   
   .NavBarContent {
-    background-color: #0CD8FF;
+    background: linear-gradient(to bottom right, white, #0CD8FF);
   }
   
   .linkNavBarPDFMobile {

@@ -4,16 +4,18 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithubSquare } from "@fortawesome/free-brands-svg-icons";
 import "./Contact.css";
 import {
-  faEnvelope,
-  faFolder,
-  faMobile
+  faMobileAlt
 } from "@fortawesome/free-solid-svg-icons";
+import {
+  faEnvelope,
+  faFolder
+} from "@fortawesome/free-regular-svg-icons";
 
 const ContactCV = props => {
   return (
     <>
       <ListGroup>
-        <ListGroupItem className="ListGroupItem">
+        <ListGroupItem className="ListGroupItem" id="ListGroupItem1">
           <a
             href="https://fr.linkedin.com/in/victor-veyrier-ab6948194"
             target="_blank"
@@ -51,7 +53,7 @@ const ContactCV = props => {
         </ListGroupItem>
         <ListGroupItem className="ListGroupItem" id="ListGroupItemLast">
           06 04 19 79 97&nbsp;
-          <FontAwesomeIcon icon={faMobile} />
+          <FontAwesomeIcon icon={faMobileAlt} />
         </ListGroupItem>
       </ListGroup>
     </>

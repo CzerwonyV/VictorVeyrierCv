@@ -110,22 +110,6 @@ const CV = props => {
         </div>
         <div className="RigthPart">
           <div className="TextGroup">
-            <h2 className="TitleGroup">EXPERIENCES PROFESSIONNELLES</h2>
-            <p>
-              <p className="TitleInText">
-                Développeur Stagiaire | Novembre 2019
-              </p>
-              Développement Web en télé-travail avec un Freelance sur du
-              Front-End (ELM). Cela m'a permis de découvrir un nouveau langage
-              et d'échanger avec un développeur confirmé.
-              <p className="TitleInText">
-                Chauffagiste Stagiaire | Novembre 2017 et Avril 2018
-              </p>
-              Hôpital J. Navarre de Château-Thierry pour valider mon
-              Baccalauréat Professionnel.
-            </p>
-          </div>
-          <div className="TextGroup">
             <h2 className="TitleGroup">PROJET WEB</h2>
             <p>
               <p className="TitleInText">
@@ -146,6 +130,26 @@ const CV = props => {
               Réalisé du 6 Avril 2020 au 15 Mai 2020. Equipe de 4 personnes.
               Fait avec JSReact, ReactStrap, CSS3. Le but était de réaliser une
               Application Web avec les API de la Nasa.
+            <p className="TitleInText">
+                Projet 3 | Tonton Sommelier | WildCodeSchool
+              </p>
+              Réalisé du 25 Mai 2020 au 31 Juillet 2020. Equipe de 4 personnes. Fait avec JSReact, ReactStrap, CSS3. Le but était de réaliser une Application Web autour de la degustation du vin avec la du client Tonton Sommelier.
+            </p>
+          </div>
+          <div className="TextGroup">
+            <h2 className="TitleGroup">EXPERIENCES PROFESSIONNELLES</h2>
+            <p>
+              <p className="TitleInText">
+                Développeur Stagiaire | Novembre 2019
+              </p>
+              Développement Web en télé-travail avec un Freelance sur du
+              Front-End (ELM). Cela m'a permis de découvrir un nouveau langage
+              et d'échanger avec un développeur confirmé.
+              <p className="TitleInText">
+                Chauffagiste Stagiaire | Novembre 2017 et Avril 2018
+              </p>
+              Hôpital J. Navarre de Château-Thierry pour valider mon
+              Baccalauréat Professionnel.
             </p>
           </div>
           <div className="TextGroup">
@@ -165,8 +169,7 @@ const CV = props => {
                   <p className="TitleInText TitleInTextFormation">
                     2019&nbsp;:&nbsp;
                   </p>
-                  Remise à Niveau Numérique et Codage (Développement Web) : 3
-                  Mois au CFA Almea Fc de Châlons-En-Champagne.
+                  2019 : Développement Web : Formation 3 Mois au CFA AlmeaFc de Châlons-En-Champagne.
                 </p>
               </div>
               <div className="TextGroupFormations">

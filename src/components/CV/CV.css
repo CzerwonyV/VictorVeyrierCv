@@ -1,6 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@font-face {
+  font-family: "Cooper Hewitt";
+    src: url(../../Font/cooper-hewitt/CooperHewitt-Semibold.otf);
+}
+
+p{
+  font-family: 'Lato', sans-serif;
+}
+
 .TitleInText {
     margin: 0;
-    font-weight: bold;
+    font-family: "Cooper Hewitt";
+    margin-top: 1vh;
   }
   
   .TitleGroup {
@@ -40,6 +52,7 @@
   
   .TitleInTextFormation {
     float: left;
+    margin-top: 0;
   }
   
   .TextContactCV {
@@ -48,6 +61,11 @@
   
   .TextContactCV:hover {
     color: white;
+  }
+
+  .FormationTextContent {
+    display: flex;
+    align-items: baseline;
   }
 
   @media screen and (max-width: 415px) {

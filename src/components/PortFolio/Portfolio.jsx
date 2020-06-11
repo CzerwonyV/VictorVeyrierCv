@@ -7,8 +7,9 @@ import "./Portfolio.css";
 
 const Portfolio = props => {
   return (
+    <div className="PortFolioBack">
     <ListGroup>
-      <ListGroupItem className="PortFolioContent">
+      <ListGroupItem className="PortFolioContent" id="PortFolioContent1">
         <WildPostCard />
       </ListGroupItem>
       <ListGroupItem className="PortFolioContent">
@@ -18,6 +19,7 @@ const Portfolio = props => {
         <BornInSpaceCard />
       </ListGroupItem>
     </ListGroup>
+    </div>
   );
 };
 

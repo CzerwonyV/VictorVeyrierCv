@@ -50,7 +50,7 @@ const NavBarCV = props => {
                 <NavLink>
                   <a
                     className="linkNavBar"
-                    href="https://github.com/CzerwonyV/CzerwonyV/files/4658962/VictorVeyrierCV.pdf"
+                    href="https://github.com/CzerwonyV/CzerwonyV/files/4765663/VictorVeyrier.pdf"
                     download
                   >
                     <p className="linkNavBarPDFDestock">Télécharger mon CV</p>
