@@ -51,7 +51,7 @@ const ContactCV = props => {
         <ListGroupItem className="ListGroupItem">
         <a href="mailto:victor.veyrier@icloud.com" className="TextContact">victor.veyrier@icloud.com&nbsp;<FontAwesomeIcon icon={faEnvelope} /></a>
         </ListGroupItem>
-        <ListGroupItem className="ListGroupItem" id="ListGroupItemLast">
+        <ListGroupItem className="ListGroupItem TextContact" id="ListGroupItemLast">
           06 04 19 79 97&nbsp;
           <FontAwesomeIcon icon={faMobileAlt} />
         </ListGroupItem>

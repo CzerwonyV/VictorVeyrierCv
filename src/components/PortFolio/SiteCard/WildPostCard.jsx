@@ -41,14 +41,14 @@ const WildPostCard = props => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button className="TitleGroup">Voir le site&nbsp;<FontAwesomeIcon icon={faExternalLinkAlt} id="logoGithubCV" /></Button>
+            <Button className="TitleGroup BtnPortfolio">Voir le site&nbsp;<FontAwesomeIcon icon={faExternalLinkAlt} id="logoGithubCV" /></Button>
           </a>
           <a
             href="https://github.com/CzerwonyV/Wild-post"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button id="SpaceButton" className="TitleGroup">Voir le dépôt&nbsp;<FontAwesomeIcon icon={faGithub} id="logoGithubCV" /></Button>
+            <Button id="SpaceButton" className="TitleGroup BtnPortfolio">Voir le dépôt&nbsp;<FontAwesomeIcon icon={faGithub} id="logoGithubCV" /></Button>
           </a>
         </CardBody>
       </Card>

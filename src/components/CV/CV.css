@@ -74,6 +74,11 @@ p{
 
   .TextMotivMobil{
     display: none;
+    font-family: "Cooper Hewitt";
+  }
+
+  .TextMotivDestock{
+    font-family: "Cooper Hewitt";
   }
 
   @media screen and (max-width: 415px) {
