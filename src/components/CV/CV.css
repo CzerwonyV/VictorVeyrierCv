@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 @font-face {
   font-family: "Cooper Hewitt";
-    src: url(../../Font/cooper-hewitt/CooperHewitt-Semibold.otf);
+    src: url(../../Font/cooper-hewitt/CooperHewitt-Bold.otf);
 }
 
 p{
@@ -20,6 +20,7 @@ p{
     border-bottom: solid #0CD8FF;
     margin-bottom: 0.7rem;
     padding-bottom: 0.7rem;
+    font-family: "Cooper Hewitt";
   }
   
   .LeftPart {

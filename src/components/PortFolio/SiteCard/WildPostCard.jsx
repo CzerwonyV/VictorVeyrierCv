@@ -28,7 +28,7 @@ const WildPostCard = props => {
         />
         <CardBody>
           <CardTitle>
-            <h4>WildPost</h4>
+            <h4 className="TitleGroup">WildPost</h4>
           </CardTitle>
           <CardText>
             Projet 1, de la Wild Code School. Realisé du 09/03/2020 au
@@ -41,14 +41,14 @@ const WildPostCard = props => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button>Voir le site&nbsp;<FontAwesomeIcon icon={faExternalLinkAlt} id="logoGithubCV" /></Button>
+            <Button className="TitleGroup">Voir le site&nbsp;<FontAwesomeIcon icon={faExternalLinkAlt} id="logoGithubCV" /></Button>
           </a>
           <a
             href="https://github.com/CzerwonyV/Wild-post"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button id="SpaceButton">Voir le dépôt&nbsp;<FontAwesomeIcon icon={faGithub} id="logoGithubCV" /></Button>
+            <Button id="SpaceButton" className="TitleGroup">Voir le dépôt&nbsp;<FontAwesomeIcon icon={faGithub} id="logoGithubCV" /></Button>
           </a>
         </CardBody>
       </Card>

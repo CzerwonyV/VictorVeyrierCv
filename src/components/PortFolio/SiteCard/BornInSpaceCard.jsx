@@ -28,7 +28,7 @@ const BornInSpaceCard = props => {
         />
         <CardBody>
           <CardTitle>
-            <h4>Born In Space</h4>
+            <h4 className="TitleGroup">Born In Space</h4>
           </CardTitle>
           <CardText>
             Projet 2, de la Wild Code School. Réalisé du 6 Avril 2020 au 15 Mai
@@ -40,14 +40,14 @@ const BornInSpaceCard = props => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button>Voir le site&nbsp;<FontAwesomeIcon icon={faExternalLinkAlt} id="logoGithubCV" /></Button>
+            <Button className="TitleGroup">Voir le site&nbsp;<FontAwesomeIcon icon={faExternalLinkAlt} id="logoGithubCV" /></Button>
           </a>
           <a
             href="https://github.com/CzerwonyV/reims-0320-js-space-at-home"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button id="SpaceButton">Voir le dépôt&nbsp;<FontAwesomeIcon icon={faGithub} id="logoGithubCV" /></Button>
+            <Button id="SpaceButton" className="TitleGroup">Voir le dépôt&nbsp;<FontAwesomeIcon icon={faGithub} id="logoGithubCV" /></Button>
           </a>
         </CardBody>
       </Card>

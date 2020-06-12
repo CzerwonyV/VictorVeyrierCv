@@ -28,7 +28,7 @@ const AroundTheWorldCard = props => {
         />
         <CardBody>
           <CardTitle>
-            <h4>Around The World</h4>
+            <h4 className="TitleGroup">Around The World</h4>
           </CardTitle>
           <CardText>
             Hackathon 1, de la Wild Code School. Réalisé du 29 Avril 2020 au 30 Avril 2020. Equipe de 3 personnes. Fait avec JSReact, ReactStrap, CSS3. Le but était de réaliser une Application Web en 32H sur une API de WebCam.
@@ -38,14 +38,14 @@ const AroundTheWorldCard = props => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button>Voir le site&nbsp;<FontAwesomeIcon icon={faExternalLinkAlt} id="logoGithubCV" /></Button>
+            <Button className="TitleGroup">Voir le site&nbsp;<FontAwesomeIcon icon={faExternalLinkAlt} id="logoGithubCV" /></Button>
           </a>
           <a
             href="https://github.com/CzerwonyV/reims-0320-js-around-the-world"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button id="SpaceButton">Voir le dépôt&nbsp;<FontAwesomeIcon icon={faGithub} id="logoGithubCV" /></Button>
+            <Button id="SpaceButton" className="TitleGroup">Voir le dépôt&nbsp;<FontAwesomeIcon icon={faGithub} id="logoGithubCV" /></Button>
           </a>
         </CardBody>
       </Card>

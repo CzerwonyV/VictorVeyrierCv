@@ -1,5 +1,6 @@
 .linkNavBar {
     color: Black;
+    font-family: "Cooper Hewitt";
   }
   
   .linkNavBar:hover {
@@ -9,7 +10,14 @@
   
   .linkTitleNavBar {
     color: Black;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-family: "Cooper Hewitt";
+  }
+
+  .navbar {
+    padding: 0 !important;
+    padding-left: 3vh !important;
+    padding-right: 3vh !important;
   }
   
   .linkTitleNavBar:hover {
@@ -19,6 +27,7 @@
   
   #TextNavBar {
     color: Black;
+    font-family: "Cooper Hewitt";
   }
   
   .NavBarContent {
@@ -28,13 +37,15 @@
   .linkNavBarPDFMobile {
     display: none;
     margin: 0;
+    font-family: "Cooper Hewitt";
   }
   
   .linkNavBarPDFDestock {
     margin: 0;
+    font-family: "Cooper Hewitt";
   }
   
-  @media screen and (max-width: 601px) {
+  @media screen and (max-width: 767px) {
     #TextNavBar {
       display: none;
     }
