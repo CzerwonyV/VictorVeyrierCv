@@ -24,6 +24,9 @@ const CV = props => {
       <div className="CVContent">
         <div className="LeftPart">
           <div className="TextGroup">
+            <p className="TextMotivDestock">
+              je suis disponible et très motivé pour un stage de 4 mois à partir du 3 août dans la région parisienne, dans la Marne (Châlons,Reims) ou à l'international (Canada,USA).
+            </p>
             <h2 className="TitleGroup">COMPETENCES</h2>
             <p>
               <p className="TitleInText">Compétences Développement&nbsp;:</p>
@@ -110,6 +113,9 @@ const CV = props => {
         </div>
         <div className="RigthPart">
           <div className="TextGroup">
+            <p className="TextMotivMobil">
+              je suis disponible et très motivé pour un stage de 4 mois à partir du 3 août dans la région parisienne, dans la Marne (Châlons,Reims) ou à l'international (Canada,USA).
+            </p>
             <h2 className="TitleGroup">PROJET WEB</h2>
             <p>
               <p className="TitleInText">
@@ -156,7 +162,7 @@ const CV = props => {
             <h2 className="TitleGroup">FORMATIONS</h2>
             <div>
               <div className="TextGroupFormations">
-                <p>
+                <p className="TextFormationMobile">
                   <p className="TitleInText TitleInTextFormation">
                     2020&nbsp;:&nbsp;
                   </p>
@@ -165,7 +171,7 @@ const CV = props => {
                 </p>
               </div>
               <div className="TextGroupFormations">
-                <p>
+                <p className="TextFormationMobile">
                   <p className="TitleInText TitleInTextFormation">
                     2019&nbsp;:&nbsp;
                   </p>
@@ -173,7 +179,7 @@ const CV = props => {
                 </p>
               </div>
               <div className="TextGroupFormations">
-                <p>
+                <p className="TextFormationMobile">
                   <p className="TitleInText TitleInTextFormation">
                     2015/2018&nbsp;:&nbsp;
                   </p>
