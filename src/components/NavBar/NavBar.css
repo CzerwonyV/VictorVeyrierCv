@@ -19,6 +19,11 @@
     padding-left: 3vh !important;
     padding-right: 3vh !important;
   }
+
+  .navbar-nav {
+    display: flex;
+    align-items: baseline;
+  }
   
   .linkTitleNavBar:hover {
     color: Black;
