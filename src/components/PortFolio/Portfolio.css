@@ -20,5 +20,9 @@
       padding-left: 2% !important;
       padding-right: 2% !important;
     }
+
+    .btn {
+      line-height: 0.5;
+    }
   }
   
