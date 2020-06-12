@@ -78,7 +78,7 @@ p{
   }
 
   .TextMotivDestock{
-    font-family: "Cooper Hewitt";
+    font-size: 1.1rem;  
   }
 
   @media screen and (max-width: 415px) {

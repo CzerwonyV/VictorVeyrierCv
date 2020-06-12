@@ -36,7 +36,7 @@
   }
   
   .NavBarContent {
-    background: linear-gradient(to bottom right, white, #0CD8FF);
+    background: linear-gradient(to right, #0CD8FF, white);
   }
   
   .linkNavBarPDFMobile {
@@ -62,6 +62,14 @@
   
     .linkNavBarPDFMobile {
       display: block;
+    }
+
+    .NavBarContent {
+      background: linear-gradient(to bottom right, #0CD8FF, white);
+    }
+
+    .linkNavBar {
+      font-size: 1.1rem;
     }
   }
   

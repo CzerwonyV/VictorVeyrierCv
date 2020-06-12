@@ -25,7 +25,7 @@ const CV = props => {
         <div className="LeftPart">
           <div className="TextGroup">
             <p className="TextMotivDestock">
-              je suis disponible et très motivé pour un stage de 4 mois à partir du 3 août dans la région parisienne, dans la Marne (Châlons,Reims) ou à l'international (Canada,USA).
+              Je suis disponible et très motivé pour un stage de 4 mois à partir du 3 août dans la région parisienne, dans la Marne (Châlons,Reims) ou à l'international (Canada,USA).
             </p>
             <h2 className="TitleGroup">COMPETENCES</h2>
             <p>
@@ -114,7 +114,7 @@ const CV = props => {
         <div className="RigthPart">
           <div className="TextGroup">
             <p className="TextMotivMobil">
-              je suis disponible et très motivé pour un stage de 4 mois à partir du 3 août dans la région parisienne, dans la Marne (Châlons,Reims) ou à l'international (Canada,USA).
+              Je suis disponible et très motivé pour un stage de 4 mois à partir du 3 août dans la région parisienne, dans la Marne (Châlons,Reims) ou à l'international (Canada,USA).
             </p>
             <h2 className="TitleGroup">PROJET WEB</h2>
             <p>
