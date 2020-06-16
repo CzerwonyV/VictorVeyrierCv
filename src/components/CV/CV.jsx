@@ -18,7 +18,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import "./CV.css";
 
-const CV = props => {
+const CV = () => {
   return (
     <>
       <div className="CVContent">
