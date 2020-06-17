@@ -10,10 +10,11 @@ import {
   NavbarText
 } from "reactstrap";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import ContactCV from "../Contact/Contact";
 import Portfolio from "../PortFolio/Portfolio";
 import "./NavBar.css";
 import CV from "../CV/CV";
+import ContactMobile from "../Contact/ContactMobile";
+import ContactDestock from "../Contact/ContactDestock";
 
 const NavBarCV = props => {
   const [isOpen, setIsOpen] = useState(false);
@@ -40,10 +41,15 @@ const NavBarCV = props => {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink>
+                <NavLink id="ContactMobil">
                   <Link className="linkNavBar" to="/Contact">
                     Contact
                   </Link>
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink id="ContactDestock"  className="linkNavBar">
+                <ContactDestock />
                 </NavLink>
               </NavItem>
               <NavItem>
@@ -67,7 +73,7 @@ const NavBarCV = props => {
             <Portfolio />
           </Route>
           <Route path="/Contact">
-            <ContactCV />
+            <ContactMobile />
           </Route>
           <Route exact path="/">
             <CV />

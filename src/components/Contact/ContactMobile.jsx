@@ -11,7 +11,7 @@ import {
   faFolder
 } from "@fortawesome/free-regular-svg-icons";
 
-const ContactCV = props => {
+const ContactMobile = props => {
   return (
     <>
       <ListGroup>
@@ -60,4 +60,4 @@ const ContactCV = props => {
   );
 };
 
-export default ContactCV;
+export default ContactMobile;

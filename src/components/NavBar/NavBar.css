@@ -49,6 +49,10 @@
     margin: 0;
     font-family: "Cooper Hewitt";
   }
+
+  #ContactMobil {
+    display: none;
+  }
   
   @media screen and (max-width: 767px) {
     #TextNavBar {
@@ -70,6 +74,14 @@
 
     .linkNavBar {
       font-size: 1.1rem;
+    }
+
+    #ContactMobil {
+      display: block;
+    }
+
+    #ContactDestock {
+      display: none;
     }
   }
   

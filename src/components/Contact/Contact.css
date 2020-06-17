@@ -24,3 +24,12 @@
     border-radius: 0;
   }
   
+  #BtnContactDestock {
+    background: transparent !important;
+    border: transparent;
+  }
+
+  .dropdown-menu {
+    padding: .5rem !important;
+    background: linear-gradient(#0CD8FF, white) !important;
+}
