@@ -1,11 +1,11 @@
-.PortFolioContent {
+.PortFolioCard {
   padding-left: 15% !important;
   padding-right: 15% !important;
   padding-bottom: 3%;
   padding-top: 1%;
   }
 
-  #PortFolioContent1{
+  #PortFolioCard1{
     border-radius: 0;
   }
 
@@ -14,9 +14,14 @@
     padding-left: 5% !important;
     padding-right: 5% !important;
   }
+
+  .PortfolioContent {
+    display: flex;
+    flex-direction: column-reverse !important;
+  }
   
   @media screen and (max-width: 415px) {
-    .PortFolioContent {
+    .PortFolioCard {
       padding-left: 2% !important;
       padding-right: 2% !important;
     }

@@ -4,19 +4,23 @@ import WildPostCard from "./SiteCard/WildPostCard";
 import BornInSpaceCard from "./SiteCard/BornInSpaceCard";
 import AroundTheWorldCard from "./SiteCard/AroundTheWorldCard";
 import "./Portfolio.css";
+import QRCzer from "./SiteCard/QRCzer";
 
 const Portfolio = props => {
   return (
     <div className="PortFolioBack">
-    <ListGroup>
-      <ListGroupItem className="PortFolioContent" id="PortFolioContent1">
+    <ListGroup className="PortfolioContent">
+      <ListGroupItem className="PortFolioCard" id="PortFolioCard1">
         <WildPostCard />
       </ListGroupItem>
-      <ListGroupItem className="PortFolioContent">
+      <ListGroupItem className="PortFolioCard">
         <AroundTheWorldCard />
       </ListGroupItem>
-      <ListGroupItem className="PortFolioContent">
+      <ListGroupItem className="PortFolioCard">
         <BornInSpaceCard />
+      </ListGroupItem>
+      <ListGroupItem className="PortFolioCard">
+        <QRCzer />
       </ListGroupItem>
     </ListGroup>
     </div>
