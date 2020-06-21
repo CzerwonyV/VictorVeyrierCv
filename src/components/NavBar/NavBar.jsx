@@ -22,7 +22,7 @@ const NavBarCV = props => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div className="NavBarContent">
+    <div className="NavBarBack">
       <Router>
         <Navbar className="NavBarContent" light expand="md">
           <NavbarBrand>
@@ -35,8 +35,8 @@ const NavBarCV = props => {
             <Nav className="mr-auto" navbar>
               <NavItem>
                 <NavLink>
-                  <Link className="linkNavBar" to="/Portfolio">
-                    Portfolio
+                  <Link className="linkNavBar" to="/CV">
+                    CV
                   </Link>
                 </NavLink>
               </NavItem>
@@ -69,14 +69,14 @@ const NavBarCV = props => {
           </Collapse>
         </Navbar>
         <Switch>
-          <Route path="/Portfolio">
-            <Portfolio />
+          <Route path="/CV">
+            <CV />
           </Route>
           <Route path="/Contact">
             <ContactMobile />
           </Route>
           <Route exact path="/">
-            <CV />
+            <Portfolio />
           </Route>
         </Switch>
       </Router>

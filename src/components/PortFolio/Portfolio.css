@@ -9,29 +9,28 @@
     border-radius: 0;
   }
 
-  .PortFolioBack {
-    background-color: black;
-    padding-left: 5% !important;
-    padding-right: 5% !important;
-  }
-
-  .PortfolioContent {
+  .PortFolioContent {
+    background-color: #121212;
     display: flex;
-    flex-direction: column-reverse !important;
+    flex-direction: row;
   }
   
   @media screen and (max-width: 415px) {
-    .PortFolioCard {
-      padding-left: 2% !important;
-      padding-right: 2% !important;
-    }
-
     .btn {
       line-height: 0.5;
     }
 
     .BtnPortfolio {
       font-size: 1rem !important;
+    }
+
+    .PortFolioContent {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card-img-top {
+      height: 100%;
     }
   }
   

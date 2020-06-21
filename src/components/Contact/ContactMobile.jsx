@@ -1,5 +1,5 @@
 import React from "react";
-import { ListGroup, ListGroupItem } from "reactstrap";
+import { ListGroupItem } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithubSquare } from "@fortawesome/free-brands-svg-icons";
 import "./Contact.css";
@@ -14,7 +14,7 @@ import {
 const ContactMobile = props => {
   return (
     <>
-      <ListGroup>
+      <div className="ContactContent">
         <ListGroupItem className="ListGroupItem" id="ListGroupItem1">
           <a
             href="https://fr.linkedin.com/in/victor-veyrier-ab6948194"
@@ -55,7 +55,7 @@ const ContactMobile = props => {
           06 04 19 79 97&nbsp;
           <FontAwesomeIcon icon={faMobileAlt} />
         </ListGroupItem>
-      </ListGroup>
+      </div>
     </>
   );
 };

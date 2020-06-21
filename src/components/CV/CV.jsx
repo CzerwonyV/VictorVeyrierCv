@@ -56,7 +56,7 @@ const CV = () => {
             </p>
           </div>
           <div className="TextGroup">
-            <h2 className="TitleGroup">CENTRES D'INTERETS</h2>
+            <h2 className="TitleGroup">CENTRES D'INTERET</h2>
             <p>
               - Sport(Football,NBA,F1)
               <br />- Jeux Vidéo

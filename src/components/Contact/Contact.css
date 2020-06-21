@@ -1,35 +1,40 @@
 .TextContact {
-    color: rgba(0, 0, 0, 0.9);
+    color: #FFFFFF;
     font-family: "Cooper Hewitt";
   }
-  
-  #logoLinkedin {
-    color: #0077b5;
+
+  .ContactContent {
+    background-color: #121212;
   }
-  
-  #logoGithub {
-    color: #24292e;
-  }
-  
+
   .list-group-item {
     background-color: white !important;
-  }
-  
-  #ListGroupItemLast {
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-  }
-
-  #ListGroupItem1 {
-    border-radius: 0;
-  }
+    margin: 1vh;
+    background-color: #121212 !important;
+    text-align: center;
+    border: 0 !important;
+}
   
   #BtnContactDestock {
-    background: transparent !important;
-    border: transparent;
+    background-color: #212121 !important;
+    border-color: #212121 !important;
+    color: #FFFFFF !important;
+    box-shadow: 0 2px 4px #212121;
   }
 
-  .dropdown-menu {
-    padding: .5rem !important;
-    background: linear-gradient(#0CD8FF, white) !important;
+.dropdown-menu {
+  background-color: #121212 !important;
+  border-radius: .25rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 767px) {
+  .list-group-item {
+    background-color: white !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 1vh;
+    background-color: #373737 !important;
+    text-align: center;
+    border-radius: .25rem !important;
+  }
 }

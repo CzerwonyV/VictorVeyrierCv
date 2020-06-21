@@ -11,9 +11,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub
 } from "@fortawesome/free-brands-svg-icons";
-import {
-  faExternalLinkAlt
-} from "@fortawesome/free-solid-svg-icons";
 import "./Card.css";
 
 const BornInSpaceCard = props => {
@@ -23,12 +20,12 @@ const BornInSpaceCard = props => {
         <CardImg
           top
           width="100%"
-          src="https://user-images.githubusercontent.com/57908921/82382021-85f63d80-9a2b-11ea-816b-7522ff0dfed2.png"
+          src="https://user-images.githubusercontent.com/57908921/85213522-da107c80-b35f-11ea-8c1f-b15d746370a0.jpg"
           alt="Card image cap"
         />
         <CardBody>
           <CardTitle>
-            <h4 className="TitleGroup">Born In Space</h4>
+            <h4 className="TitleGroupCard">Born In Space</h4>
           </CardTitle>
           <CardText>
             Projet 2, de la Wild Code School. Réalisé du 6 Avril 2020 au 15 Mai
@@ -40,14 +37,14 @@ const BornInSpaceCard = props => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button className="TitleGroup BtnPortfolio">Voir le site&nbsp;<FontAwesomeIcon icon={faExternalLinkAlt} id="logoGithubCV" /></Button>
+            <Button className="TitleGroupCard BtnPortfolio">Voir le site</Button>
           </a>
           <a
             href="https://github.com/CzerwonyV/reims-0320-js-space-at-home"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button id="SpaceButton" className="TitleGroup BtnPortfolio">Voir le dépôt&nbsp;<FontAwesomeIcon icon={faGithub} id="logoGithubCV" /></Button>
+            <Button id="SpaceButton" className="TitleGroupCard BtnPortfolio"><FontAwesomeIcon icon={faGithub} id="logoGithubCard" /></Button>
           </a>
         </CardBody>
       </Card>
