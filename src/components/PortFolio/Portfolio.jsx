@@ -1,5 +1,4 @@
 import React from "react";
-import { ListGroup, ListGroupItem } from "reactstrap";
 import WildPostCard from "./SiteCard/WildPostCard";
 import BornInSpaceCard from "./SiteCard/BornInSpaceCard";
 import AroundTheWorldCard from "./SiteCard/AroundTheWorldCard";
@@ -8,21 +7,15 @@ import QRCzer from "./SiteCard/QRCzer";
 
 const Portfolio = props => {
   return (
-    <div className="PortFolioBack">
-    <ListGroup className="PortfolioContent">
-      <ListGroupItem className="PortFolioCard" id="PortFolioCard1">
+    <div className="PortFolioContent">
+      <div>
         <WildPostCard />
-      </ListGroupItem>
-      <ListGroupItem className="PortFolioCard">
         <AroundTheWorldCard />
-      </ListGroupItem>
-      <ListGroupItem className="PortFolioCard">
+      </div>
+      <div>
         <BornInSpaceCard />
-      </ListGroupItem>
-      <ListGroupItem className="PortFolioCard">
         <QRCzer />
-      </ListGroupItem>
-    </ListGroup>
+      </div>
     </div>
   );
 };

@@ -11,9 +11,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub
 } from "@fortawesome/free-brands-svg-icons";
-import {
-  faExternalLinkAlt
-} from "@fortawesome/free-solid-svg-icons";
 import "./Card.css";
 
 const AroundTheWorldCard = props => {
@@ -23,12 +20,12 @@ const AroundTheWorldCard = props => {
         <CardImg
           top
           width="100%"
-          src="https://user-images.githubusercontent.com/57908921/82511913-cbd80200-9b0e-11ea-8750-d66dd17ab036.jpg"
+          src="https://user-images.githubusercontent.com/57908921/85213518-d5e45f00-b35f-11ea-933d-2a06d7a259c5.png"
           alt="Card image cap"
         />
         <CardBody>
           <CardTitle>
-            <h4 className="TitleGroup">Around The World</h4>
+            <h4 className="TitleGroupCard">Around The World</h4>
           </CardTitle>
           <CardText>
             Hackathon 1, de la Wild Code School. Réalisé du 29 Avril 2020 au 30 Avril 2020. Equipe de 3 personnes. Fait avec JSReact, ReactStrap, CSS3. Le but était de réaliser une Application Web en 32H sur une API de WebCam.
@@ -38,14 +35,14 @@ const AroundTheWorldCard = props => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button className="TitleGroup BtnPortfolio">Voir le site&nbsp;<FontAwesomeIcon icon={faExternalLinkAlt} id="logoGithubCV" /></Button>
+            <Button className="TitleGroupCard BtnPortfolio">Voir le site</Button>
           </a>
           <a
             href="https://github.com/CzerwonyV/reims-0320-js-around-the-world"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button id="SpaceButton" className="TitleGroup BtnPortfolio">Voir le dépôt&nbsp;<FontAwesomeIcon icon={faGithub} id="logoGithubCV" /></Button>
+            <Button id="SpaceButton" className="TitleGroupCard BtnPortfolio"><FontAwesomeIcon icon={faGithub} id="logoGithubCard" /></Button>
           </a>
         </CardBody>
       </Card>

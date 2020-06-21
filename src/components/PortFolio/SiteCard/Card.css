@@ -3,18 +3,33 @@
   }
   
   .btn-secondary {
-    background-color: #0CD8FF!important;
-    border-color: #0CD8FF !important;
-    color: black !important;
+    background-color: #03DAC6 !important;
+    border-color: #03DAC6 !important;
+    color: #000000 !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   }
   
   .btn-secondary:hover {
-    background-color: #0CD8FF !important;
-    border-color: #0CD8FF !important;
-    color: black !important;
+    background-color: #03DAC6 !important;
+    border-color: #03DAC6 !important;
+    color: #000000 !important;
   }
 
 #SpaceButton{
   margin-left: 1vh;
 }
-  
+
+.card {
+  margin: 4vh;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  border: 0 !important;
+  background-color: #212121 !important;
+  color: #FFFFFF;
+}
+
+.TitleGroupCard {
+  font-size: 1.5rem;
+  margin-bottom: 0.7rem;
+  padding-bottom: 0.7rem;
+  font-family: "Cooper Hewitt";
+}
