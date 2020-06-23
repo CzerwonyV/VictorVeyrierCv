@@ -13,7 +13,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import "./Card.css";
 
-const QRCzer = props => {
+const QRV = props => {
   return (
     <div>
       <Card>
@@ -25,7 +25,7 @@ const QRCzer = props => {
         />
         <CardBody>
           <CardTitle>
-            <h4 className="TitleGroupCard">QR Czer</h4>
+            <h4 className="TitleGroupCard">QR-V</h4>
           </CardTitle>
           <CardText>
           Projet perso. Une application Web autour des QR Code afin de pouvoir en créer et en lire. Elle servira également à aider mes camarades sur les projets de la Wild Code School, qui utilise elle aussi les QR Code.          </CardText>
@@ -49,4 +49,4 @@ const QRCzer = props => {
   );
 };
 
-export default QRCzer;
+export default QRV;

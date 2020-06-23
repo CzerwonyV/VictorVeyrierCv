@@ -3,18 +3,20 @@ import WildPostCard from "./SiteCard/WildPostCard";
 import BornInSpaceCard from "./SiteCard/BornInSpaceCard";
 import AroundTheWorldCard from "./SiteCard/AroundTheWorldCard";
 import "./Portfolio.css";
-import QRCzer from "./SiteCard/QRCzer";
+import QRV from "./SiteCard/QRV";
 
 const Portfolio = props => {
   return (
     <div className="PortFolioContent">
-      <div>
-        <WildPostCard />
-        <AroundTheWorldCard />
-      </div>
-      <div>
-        <BornInSpaceCard />
-        <QRCzer />
+      <div className="PortFolioContentCard">
+        <div>
+          <WildPostCard />
+          <AroundTheWorldCard />
+        </div>
+        <div>
+          <BornInSpaceCard />
+          <QRV />
+        </div>
       </div>
     </div>
   );
