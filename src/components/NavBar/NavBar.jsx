@@ -15,8 +15,9 @@ import "./NavBar.css";
 import CV from "../CV/CV";
 import ContactMobile from "../Contact/ContactMobile";
 import ContactDestock from "../Contact/ContactDestock";
-import BtnGithub from "./Btn/BtnGithub";
-import BtnLinkedin from "./Btn/BtnLinkedin";
+import BtnGithub from "../Btn/BtnGithub";
+import BtnLinkedin from "../Btn/BtnLinkedin";
+import BtnTwitter from "../Btn/BtnTwitter";
 
 const NavBarCV = props => {
   const [isOpen, setIsOpen] = useState(false);
@@ -67,6 +68,9 @@ const NavBarCV = props => {
                 </NavLink>
               </NavItem>
             </Nav>
+            <NavItem className="IconNav">
+              <BtnTwitter />
+            </NavItem>
             <NavItem className="IconNav">
               <BtnLinkedin />
             </NavItem>

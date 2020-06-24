@@ -69,15 +69,6 @@
     font-size: 1.6rem;
   }
 
-  .IconBackground {
-    color: #FFFFFF;
-    font-size: 1.5rem;
-  }
-
-  .BtnLinkedinNav {
-    padding-right: 0 !important;
-  }
-
   @media screen and (max-width: 767px) {
     #TextNavBar {
       display: none;
@@ -101,10 +92,6 @@
     }
 
     #ContactDestock {
-      display: none;
-    }
-
-    .IconNav {
       display: none;
     }
   }
