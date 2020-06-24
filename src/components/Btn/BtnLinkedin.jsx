@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from "reactstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
-import '../NavBar.css';
+import './Btn.css';
 
 const BtnLinkedin = () => {
   return (

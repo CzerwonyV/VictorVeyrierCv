@@ -1,0 +1,43 @@
+.IconBackground {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+  }
+
+  .BtnLinkedinNav {
+    padding-right: 0 !important;
+  }
+
+  .CercleBtn {
+    border-radius: 50%;
+    width: 10.180995475113122vh;
+    height: 10.180995475113122vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 1vh;
+    margin-right: 2vh;
+  }
+
+  .ImgWild {
+    width: 75% !important;
+  }
+
+  .BtnWild {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media screen and (max-width: 767px) {
+    .IconNav {
+      display: none;
+    }
+
+    .CercleBtn {
+      width: 6.787330316742081vh;
+      height: 6.787330316742081vh;
+    }
+  }
+  

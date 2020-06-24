@@ -1,7 +1,7 @@
 import React from "react";
 import { ListGroupItem } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faGithubSquare } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faGithubSquare, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import "./Contact.css";
 import {
   faMobileAlt
@@ -15,6 +15,17 @@ const ContactMobile = props => {
   return (
     <>
       <div className="ContactContent">
+      <ListGroupItem className="ListGroupItem" id="ListGroupItem1">
+          <a
+            href="https://twitter.com/CzerwonyV"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="TextContact"
+          >
+            <FontAwesomeIcon icon={faTwitter} id="logoLinkedin" />
+            &nbsp;Twitter
+          </a>
+        </ListGroupItem>
         <ListGroupItem className="ListGroupItem" id="ListGroupItem1">
           <a
             href="https://fr.linkedin.com/in/victor-veyrier-ab6948194"
@@ -22,8 +33,8 @@ const ContactMobile = props => {
             rel="noopener noreferrer"
             className="TextContact"
           >
-            Linkedin&nbsp;
             <FontAwesomeIcon icon={faLinkedin} id="logoLinkedin" />
+            &nbsp;Linkedin
           </a>
         </ListGroupItem>
         <ListGroupItem className="ListGroupItem">
@@ -33,8 +44,8 @@ const ContactMobile = props => {
             rel="noopener noreferrer"
             className="TextContact"
           >
-            GitHub&nbsp;
             <FontAwesomeIcon icon={faGithubSquare} id="logoGithub" />
+            &nbsp;GitHub
           </a>
         </ListGroupItem>
         <ListGroupItem className="ListGroupItem">
@@ -44,16 +55,16 @@ const ContactMobile = props => {
             rel="noopener noreferrer"
             className="TextContact"
           >
-            Sandboxes&nbsp;
             <FontAwesomeIcon icon={faFolder} />
+            &nbsp;Sandboxes
           </a>
         </ListGroupItem>
         <ListGroupItem className="ListGroupItem">
-        <a href="mailto:victor.veyrier@icloud.com" className="TextContact">victor.veyrier@icloud.com&nbsp;<FontAwesomeIcon icon={faEnvelope} /></a>
+        <a href="mailto:victor.veyrier@icloud.com" className="TextContact"><FontAwesomeIcon icon={faEnvelope} />&nbsp;victor.veyrier@icloud.com</a>
         </ListGroupItem>
         <ListGroupItem className="ListGroupItem TextContact" id="ListGroupItemLast">
-          06 04 19 79 97&nbsp;
           <FontAwesomeIcon icon={faMobileAlt} />
+          &nbsp;06 04 19 79 97
         </ListGroupItem>
       </div>
     </>

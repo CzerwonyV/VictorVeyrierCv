@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from "reactstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import '../NavBar.css';
+import './Btn.css';
 
 const BtnGithub = () => {
   return (
