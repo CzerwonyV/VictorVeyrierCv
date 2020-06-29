@@ -139,7 +139,13 @@ const CV = () => {
             <p className="TitleInText">
                 Projet 3 | Tonton Sommelier | WildCodeSchool
               </p>
-              Réalisé du 25 Mai 2020 au 31 Juillet 2020. Equipe de 4 personnes. Fait avec JSReact, ReactStrap, CSS3. Le but était de réaliser une Application Web autour de la degustation du vin avec la du client Tonton Sommelier.
+              Réalisé du 25 Mai 2020 au 31 Juillet 2020. Equipe de 4 personnes. Fait avec JSReact, ReactStrap, CSS3. Le but était de réaliser une Application Web autour de la dégustation du vin avec la du client Tonton Sommelier.
+              <p className="TitleInText">
+                Hackathon 2 | DoctoPills | WildCodeSchool/Doctolib
+              </p>
+              Réalisé du 24 au 26 Juin 2020. Equipe de 4 personnes.
+              Fait avec ReactJS, ReactStrap, CSS3, NodeJs, ExpressJs. Le but était de réaliser une
+              Application Web en 53H pour remplacer un pilulier.
             </p>
           </div>
           <div className="TextGroup">
