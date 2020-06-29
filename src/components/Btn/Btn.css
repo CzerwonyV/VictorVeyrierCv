@@ -9,8 +9,8 @@
 
   .CercleBtn {
     border-radius: 50%;
-    width: 10.180995475113122vh;
-    height: 10.180995475113122vh;
+    width: 8.307372793354102vh;
+    height: 8.307372793354102vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,13 +21,30 @@
   }
 
   .ImgWild {
-    width: 75% !important;
+    width: 100% !important;
   }
 
   .BtnWild {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .BtnActuContent {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .TitleActuContent {
+    display: flex;
+    align-items: center;
+  }
+
+  .TitleActu {
+    font-family: "Cooper Hewitt";
+    color: #FFF;
+    font-size: 1.7rem;
+    margin-left: 1vh;
   }
 
   @media screen and (max-width: 767px) {
