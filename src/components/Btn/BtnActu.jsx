@@ -8,7 +8,7 @@ const BtnActu = () => {
       <div className="CercleBtn">
         <Button color="link" className="BtnWild">
           <a
-            href="https://twitter.com/CzerwonyV"
+            href="https://www.wildcodeschool.com/fr-FR"
             target="_blank"
             rel="noopener noreferrer"
             className=""
