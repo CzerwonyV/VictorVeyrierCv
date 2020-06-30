@@ -3,16 +3,16 @@
   }
   
   .btn-secondary {
-    background-color: #03DAC6 !important;
-    border-color: #03DAC6 !important;
-    color: #000000 !important;
+    background-color: #373737 !important;
+    border-color: #373737 !important;
+    color: #FFF !important;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   }
   
   .btn-secondary:hover {
-    background-color: #03DAC6 !important;
-    border-color: #03DAC6 !important;
-    color: #000000 !important;
+    background-color: #373737 !important;
+    border-color: #373737 !important;
+    color: #FFF !important;
   }
 
 #SpaceButton{
