@@ -15,7 +15,7 @@ import "./Card.css";
 
 const AroundTheWorldCard = props => {
   return (
-    <div>
+    <>
       <Card>
         <CardImg
           top
@@ -46,7 +46,7 @@ const AroundTheWorldCard = props => {
           </a>
         </CardBody>
       </Card>
-    </div>
+    </>
   );
 };
 

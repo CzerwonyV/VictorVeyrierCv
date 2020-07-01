@@ -6,7 +6,7 @@ import './Btn.css';
 
 const BtnTwitter = () => {
   return (
-    <div>
+    <>
       <Button color="link" className="BtnLinkedinNav">
         <a
           href="https://twitter.com/CzerwonyV"
@@ -17,7 +17,7 @@ const BtnTwitter = () => {
           <FontAwesomeIcon icon={faTwitter} className="IconBackground"/>
         </a>
       </Button>
-    </div>
+    </>
   );
 };
 

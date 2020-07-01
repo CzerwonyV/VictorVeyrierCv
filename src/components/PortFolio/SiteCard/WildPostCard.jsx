@@ -15,7 +15,7 @@ import "./Card.css";
 
 const WildPostCard = props => {
   return (
-    <div>
+    <>
       <Card>
         <CardImg
           top
@@ -49,7 +49,7 @@ const WildPostCard = props => {
           </a>
         </CardBody>
       </Card>
-    </div>
+    </>
   );
 };
 

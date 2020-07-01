@@ -15,7 +15,7 @@ import "./Card.css";
 
 const QRV = props => {
   return (
-    <div>
+    <>
       <Card>
         <CardImg
           top
@@ -45,7 +45,7 @@ const QRV = props => {
           </a>
         </CardBody>
       </Card>
-    </div>
+    </>
   );
 };
 

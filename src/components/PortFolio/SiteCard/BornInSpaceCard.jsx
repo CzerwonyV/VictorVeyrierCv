@@ -15,7 +15,7 @@ import "./Card.css";
 
 const BornInSpaceCard = props => {
   return (
-    <div>
+    <>
       <Card>
         <CardImg
           top
@@ -48,7 +48,7 @@ const BornInSpaceCard = props => {
           </a>
         </CardBody>
       </Card>
-    </div>
+    </>
   );
 };
 

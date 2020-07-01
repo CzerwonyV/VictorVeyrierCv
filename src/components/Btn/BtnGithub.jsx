@@ -6,7 +6,7 @@ import './Btn.css';
 
 const BtnGithub = () => {
   return (
-    <div>
+    <>
       <Button color="link">
         <a
           href="https://github.com/CzerwonyV"
@@ -17,7 +17,7 @@ const BtnGithub = () => {
           <FontAwesomeIcon icon={faGithub} className="IconBackground"/>
         </a>
       </Button>
-    </div>
+    </>
   );
 };
 
