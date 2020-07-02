@@ -23,14 +23,10 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="PortFolioContentCard">
-          <div>
-            <WildPostCard />
-            <AroundTheWorldCard />
-          </div>
-          <div>
-            <BornInSpaceCard />
-            <QRV />
-          </div>
+          <WildPostCard />
+          <AroundTheWorldCard />
+          <BornInSpaceCard />
+          <QRV />
         </div>
       </div>
     </>

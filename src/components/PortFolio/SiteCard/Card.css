@@ -20,11 +20,13 @@
 }
 
 .card {
-  margin: 4vh;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   border: 0 !important;
   background-color: #212121 !important;
   color: #FFFFFF;
+  margin-bottom: 4vh;
+  margin-left: 4vh;
+  margin-right: 4vh;
 }
 
 .TitleGroupCard {
