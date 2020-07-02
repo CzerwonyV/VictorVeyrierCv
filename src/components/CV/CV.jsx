@@ -17,12 +17,10 @@ import {
   faMobile
 } from "@fortawesome/free-solid-svg-icons";
 import "./CV.css";
-import NavBarCV from "../NavBar/NavBar";
 
 const CV = () => {
   return (
     <>
-      <NavBarCV />
       <div className="CVContent">
         <div className="LeftPart">
           <div className="TextGroup">

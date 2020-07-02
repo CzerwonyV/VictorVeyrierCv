@@ -6,12 +6,10 @@ import { TwitterTimelineEmbed } from "react-twitter-embed";
 import "./Portfolio.css";
 import QRV from "./SiteCard/QRV";
 import BtnActu from "../Btn/BtnActu";
-import NavBarCV from "../NavBar/NavBar";
 
 const Portfolio = props => {
   return (
     <>
-      <NavBarCV />
       <div className="PortFolioContent">
         <div className="ActuContent">
           <div className="ActuGauche">
