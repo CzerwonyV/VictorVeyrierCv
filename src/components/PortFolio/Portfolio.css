@@ -41,6 +41,8 @@
 
   .ActuDroite {
     height: 100%;
+    padding: 1vh;
+    padding-bottom: -1vh;
   }
 
   .TextActu {
