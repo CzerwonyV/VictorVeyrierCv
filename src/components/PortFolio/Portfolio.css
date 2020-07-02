@@ -16,8 +16,8 @@
   }
 
   .PortFolioContentCard {
-    display: flex;
-    flex-direction: row;
+    column-count: 2;
+    flex-direction: column-reverse;
   }
 
   .ActuContent {
@@ -29,6 +29,7 @@
     background-color: #1D1D1D;
     margin-bottom: 0;
     justify-content: space-between;
+    margin-bottom: 4vh;
   }
 
   .ActuGauche {
@@ -74,5 +75,9 @@
     .ActuGauche {
       width: 100%;
     }
+
+    .TitleActu {
+      margin-bottom: -1vh;
+  }
   }
   
