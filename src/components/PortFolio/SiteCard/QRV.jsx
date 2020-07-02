@@ -30,14 +30,14 @@ const QRV = props => {
           <CardText>
           Projet perso. Une application Web autour des QR Code afin de pouvoir en créer et en lire. Elle servira également à aider mes camarades sur les projets de la Wild Code School, qui utilise elle aussi les QR Code.          </CardText>
           <a
-            href="https://qrczer.netlify.app/"
+            href="https://qrv.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Button className="TitleGroupCard BtnPortfolio">Voir le site</Button>
           </a>
           <a
-            href="https://github.com/CzerwonyV/QR-Czer"
+            href="https://github.com/CzerwonyV/QR-V"
             target="_blank"
             rel="noopener noreferrer"
           >
