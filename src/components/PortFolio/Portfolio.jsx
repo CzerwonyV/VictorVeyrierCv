@@ -2,12 +2,12 @@ import React from "react";
 import WildPostCard from "./SiteCard/WildPostCard";
 import BornInSpaceCard from "./SiteCard/BornInSpaceCard";
 import AroundTheWorldCard from "./SiteCard/AroundTheWorldCard";
-import { TwitterTimelineEmbed } from "react-twitter-embed";
-import "./Portfolio.css";
+import TwitterTimeline from "react-twitter-embedded-timeline";
 import QRV from "./SiteCard/QRV";
 import BtnActu from "../Btn/BtnActu";
+import "./Portfolio.css";
 
-const Portfolio = props => {
+const Portfolio = () => {
   return (
     <>
       <div className="PortFolioContent">
@@ -19,22 +19,14 @@ const Portfolio = props => {
             <p className="TextActu" id="TextActuBottom">Je suis actuellement en Formation développeur Full Stack en 5 Mois à la Wild Code School de Reims.</p>
           </div>
           <div className="ActuDroite">
-            <TwitterTimelineEmbed
-            sourceType="profile"
-            screenName="czerwonyv"
-            options={{ height: 350 }}
-            />
+            <TwitterTimeline widgetId="TLContent" user="CzerwonyV" width="400" height="400" />
           </div>
         </div>
         <div className="PortFolioContentCard">
-          <div>
-            <WildPostCard />
-            <AroundTheWorldCard />
-          </div>
-          <div>
-            <BornInSpaceCard />
-            <QRV />
-          </div>
+          <WildPostCard />
+          <AroundTheWorldCard />
+          <BornInSpaceCard />
+          <QRV />
         </div>
       </div>
     </>
