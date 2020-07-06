@@ -47,6 +47,15 @@
     margin-left: 1vh;
   }
 
+  .ADL {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .ImgDL {
+    width: 55%;
+  }
+
   @media screen and (max-width: 767px) {
     .IconNav {
       display: none;
@@ -55,6 +64,10 @@
     .CercleBtn {
       width: 6.787330316742081vh;
       height: 6.787330316742081vh;
+    }
+
+    .BtnDLContent {
+      display: none;
     }
   }
   
