@@ -83,11 +83,22 @@ p{
     font-size: 1.1rem;  
   }
 
-  @media screen and (max-width: 415px) {
+  .TitleProject {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  @media screen and (max-width: 586px) {
     .CVContent {
       display: flex;
       flex-direction: column-reverse;
       text-align: center;
+    }
+
+    .TitleProject {
+      display: flex;
+      justify-content: center;
     }
   
     .LeftPart {

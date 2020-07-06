@@ -17,6 +17,7 @@ import {
   faMobile
 } from "@fortawesome/free-solid-svg-icons";
 import "./CV.css";
+import BtnDL from "../Btn/BtnDL";
 
 const CV = () => {
   return (
@@ -121,7 +122,7 @@ const CV = () => {
             <p className="TextMotivMobil">
               Je suis disponible et très motivé pour un stage de 4 mois à partir du 3 août dans la région parisienne, dans la Marne (Châlons,Reims) ou à l'international (Canada,USA).
             </p>
-            <h2 className="TitleGroup">PROJET WEB</h2>
+            <h2 className="TitleGroup TitleProject">PROJET WEB<BtnDL /></h2>
             <p>
               <p className="TitleInText">
                 Projet 1 | Wild Post | WildCodeSchool
