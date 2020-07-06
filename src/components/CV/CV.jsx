@@ -47,6 +47,8 @@ const CV = () => {
               &nbsp;|&nbsp;GitHub&nbsp;
               <FontAwesomeIcon icon={faGithubSquare} id="logoGithubCV" />
               <br />- Méthode Scrum
+              <br />- ExpressJS
+              <br />- Redux
               <p className="TitleInText" id="GeneralSkill">
                 Compétences Générales&nbsp;:
               </p>
@@ -61,6 +63,9 @@ const CV = () => {
               - Sport(Football,NBA,F1)
               <br />- Jeux Vidéo
               <br />- VTT
+              <br />- Application Mobile
+              <br />- Start-up
+              <br />- High tech
             </p>
           </div>
           <div className="TextGroup">
