@@ -9,7 +9,7 @@ const BtnDL = () => {
   return (
     <div className="BtnDLContent">
         <a
-        href="https://github.com/CzerwonyV/CzerwonyV/files/4878259/VictorVeyrier.pdf"
+        href="https://github.com/CzerwonyV/CzerwonyV/files/4893408/Victor.veyrier.3.pdf"
         download
         className="ADL"
         >
