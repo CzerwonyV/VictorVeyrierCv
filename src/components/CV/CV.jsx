@@ -26,8 +26,7 @@ const CV = () => {
         <div className="LeftPart">
           <div className="TextGroup">
             <p className="TextMotivDestock">
-              Je suis disponible et très motivé pour un stage de 4 mois à partir du 3 août dans la région parisienne, dans la Marne (Châlons,Reims) ou à l'international (Canada,USA).
-            </p>
+            Je suis à la recherche d'un stage de 4 mois à partir du 3 août dans la région parisienne ou dans la Marne (Châlons, Reims). Je suis très motivé et aurai à cœur de m'investir dans le travail qui me sera confié.</p>
             <h2 className="TitleGroup">COMPETENCES</h2>
             <p>
               <p className="TitleInText">Compétences Développement&nbsp;:</p>
@@ -123,7 +122,7 @@ const CV = () => {
               Je suis disponible et très motivé pour un stage de 4 mois à partir du 3 août dans la région parisienne, dans la Marne (Châlons,Reims) ou à l'international (Canada,USA).
             </p>
             <h2 className="TitleGroup TitleProject">PROJET WEB<BtnDL /></h2>
-            <p>
+            <p className="RigthPartText">
               <p className="TitleInText">
                 Projet 1 | Wild Post | WildCodeSchool
               </p>
@@ -156,7 +155,7 @@ const CV = () => {
           </div>
           <div className="TextGroup">
             <h2 className="TitleGroup">EXPERIENCES PROFESSIONNELLES</h2>
-            <p>
+            <p className="RigthPartText">
               <p className="TitleInText">
                 Développeur Stagiaire | Novembre 2019
               </p>
@@ -174,7 +173,7 @@ const CV = () => {
             <h2 className="TitleGroup">FORMATIONS</h2>
             <div>
               <div className="TextGroupFormations">
-                <p className="TextFormationMobile">
+                <p className="TextFormationMobile TextFormationDestock">
                   <p className="TitleInText TitleInTextFormation">
                     2020&nbsp;:&nbsp;
                   </p>
@@ -183,7 +182,7 @@ const CV = () => {
                 </p>
               </div>
               <div className="TextGroupFormations">
-                <p className="TextFormationMobile">
+                <p className="TextFormationMobile TextFormationDestock">
                   <p className="TitleInText TitleInTextFormation">
                     2019&nbsp;:&nbsp;
                   </p>
@@ -191,7 +190,7 @@ const CV = () => {
                 </p>
               </div>
               <div className="TextGroupFormations">
-                <p className="TextFormationMobile">
+                <p className="TextFormationMobile TextFormationDestock">
                   <p className="TitleInText TitleInTextFormation">
                     2015/2018&nbsp;:&nbsp;
                   </p>

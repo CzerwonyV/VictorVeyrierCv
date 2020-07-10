@@ -80,13 +80,22 @@ p{
   }
 
   .TextMotivDestock{
-    font-size: 1.1rem;  
+    font-size: 1.1rem;
+    text-align: justify;
   }
 
   .TitleProject {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+  }
+
+  .RigthPartText {
+    text-align: justify;
+  }
+
+  .TextFormationDestock {
+    text-align: justify;
   }
 
   @media screen and (max-width: 586px) {
@@ -122,6 +131,14 @@ p{
     .TextFormationMobile {
       display: flex;
       flex-direction: column;
+    }
+
+    .RigthPartText {
+      text-align: center;
+    }
+  
+    .TextFormationDestock {
+      text-align: center;
     }
   }
   
