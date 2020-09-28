@@ -9,7 +9,11 @@ import {
   faHtml5,
   faCss3Alt,
   faJsSquare,
-  faBootstrap
+  faBootstrap,
+  faAws,
+  faWindows,
+  faLinux,
+  faApple
 } from "@fortawesome/free-brands-svg-icons";
 import {
   faEnvelope,
@@ -26,7 +30,7 @@ const CV = () => {
         <div className="LeftPart">
           <div className="TextGroup">
             <p className="TextMotivDestock">
-            Je suis à la recherche d'un stage de 4 mois à partir du 3 août dans la région parisienne ou dans la Marne (Châlons, Reims). Je suis très motivé et aurai à cœur de m'investir dans le travail qui me sera confié.</p>
+            Je suis à la recherche d'un emploi de développeur à partir du 27 novembre dans la région parisienne ou dans la Marne (Châlons, Reims). Je suis très motivé et aurai à cœur de m'investir dans le travail qui me sera confié.</p>
             <h2 className="TitleGroup">COMPETENCES</h2>
             <p>
               <p className="TitleInText">Compétences Développement&nbsp;:</p>
@@ -38,23 +42,36 @@ const CV = () => {
               <FontAwesomeIcon icon={faJsSquare} id="logoJS" />
               <br />- React (JSX)&nbsp;
               <FontAwesomeIcon icon={faReact} id="logoReact" />
+              <br />- React-Native&nbsp;
+              <FontAwesomeIcon icon={faReact} id="logoReact" />
               <br />- NodeJS&nbsp;
               <FontAwesomeIcon icon={faNodeJs} id="logoNodeJS" />
+              <br />- AWS&nbsp;
+              <FontAwesomeIcon icon={faAws} id="logoAWS" />
               <br />- Bootstrap&nbsp;(Reactstrap)&nbsp;
               <FontAwesomeIcon icon={faBootstrap} id="logoBootstrap" />
               <br />- Git&nbsp;
               <FontAwesomeIcon icon={faGitAlt} id="logoGit" />
               &nbsp;|&nbsp;GitHub&nbsp;
-              <FontAwesomeIcon icon={faGithubSquare} id="logoGithubCV" />
-              <br />- Méthode Scrum
+              <FontAwesomeIcon icon={faGithubSquare} id="logoGithub" />
               <br />- ExpressJS
+              <br />- Rest
+              <br />- GraphQL
               <br />- Redux
+              <br />- Styled-Components
+              <br />-&nbsp;
+              <FontAwesomeIcon icon={faWindows} className="WLA" />
+              &nbsp;
+              <FontAwesomeIcon icon={faLinux} className="WLA" />
+              &nbsp;
+              <FontAwesomeIcon icon={faApple} className="WLA" />
               <p className="TitleInText" id="GeneralSkill">
                 Compétences Générales&nbsp;:
               </p>
               - Travail En Equipe
               <br />- Organisation
               <br />- Créativité
+              <br />- Méthode Scrum
             </p>
           </div>
           <div className="TextGroup">
@@ -124,38 +141,49 @@ const CV = () => {
             <h2 className="TitleGroup TitleProject">PROJET WEB<BtnDL /></h2>
             <p className="RigthPartText">
               <p className="TitleInText">
-                Projet 1 | Wild Post | WildCodeSchool
+                Trott | Trott/Innovact
               </p>
-              Réalisé du 9 Mars 2020 au 27 Mars 2020. Equipe de 4 personnes.
-              Fait avec HTML5, CSS3 et JS. Le but était de réaliser un site
-              statique d'un journal sur la WildCodeSchool.
+              Participation au projet du 3 août au 27 Novembre 2020. Equipe de 5 personnes.
+              Fait avec React-Native, Styled-Components, NodeJs, AWS, GraphQl. Le but était de réaliser une
+              Application Mobile en React-Native à partir d'un application web en React.
               <p className="TitleInText">
-                Hackathon | Around The World | WildCodeSchool
+                DoctoPills | WildCodeSchool/Doctolib
+              </p>
+              Réalisé du 24 au 26 Juin 2020. Equipe de 4 personnes.
+              Fait avec ReactJS, ReactStrap, CSS3, NodeJs, ExpressJs. Le but était de réaliser une
+              Application Web en 53H pour remplacer un pilulier.
+              <p className="TitleInText">
+                Tonton Sommelier | WildCodeSchool
+              </p>
+              Réalisé du 25 Mai 2020 au 31 Juillet 2020. Equipe de 4 personnes. Fait avec JSReact, ReactStrap, CSS3. Le but était de réaliser une Application Web autour de la dégustation du vin avec la du client Tonton Sommelier.
+              <p className="TitleInText">
+                Born In Space | WildCodeSchool
+              </p>
+              Réalisé du 6 Avril 2020 au 15 Mai 2020. Equipe de 4 personnes.
+              Fait avec JSReact, ReactStrap, CSS3. Le but était de réaliser une
+              Application Web avec les API de la Nasa.
+              <p className="TitleInText">
+                Around The World | WildCodeSchool
               </p>
               Réalisé du 29 Avril 2020 au 30 Avril 2020. Equipe de 3 personnes.
               Fait avec JSReact, ReactStrap, CSS3. Le but était de réaliser une
               Application Web en 32H sur une API de WebCam.
               <p className="TitleInText">
-                Projet 2 | Born In Space | WildCodeSchool
+                Wild Post | WildCodeSchool
               </p>
-              Réalisé du 6 Avril 2020 au 15 Mai 2020. Equipe de 4 personnes.
-              Fait avec JSReact, ReactStrap, CSS3. Le but était de réaliser une
-              Application Web avec les API de la Nasa.
-            <p className="TitleInText">
-                Projet 3 | Tonton Sommelier | WildCodeSchool
-              </p>
-              Réalisé du 25 Mai 2020 au 31 Juillet 2020. Equipe de 4 personnes. Fait avec JSReact, ReactStrap, CSS3. Le but était de réaliser une Application Web autour de la dégustation du vin avec la du client Tonton Sommelier.
-              <p className="TitleInText">
-                Hackathon 2 | DoctoPills | WildCodeSchool/Doctolib
-              </p>
-              Réalisé du 24 au 26 Juin 2020. Equipe de 4 personnes.
-              Fait avec ReactJS, ReactStrap, CSS3, NodeJs, ExpressJs. Le but était de réaliser une
-              Application Web en 53H pour remplacer un pilulier.
+              Réalisé du 9 Mars 2020 au 27 Mars 2020. Equipe de 4 personnes.
+              Fait avec HTML5, CSS3 et JS. Le but était de réaliser un site
+              statique d'un journal sur la WildCodeSchool.
             </p>
           </div>
           <div className="TextGroup">
             <h2 className="TitleGroup">EXPERIENCES PROFESSIONNELLES</h2>
             <p className="RigthPartText">
+            <p className="TitleInText">
+                Développeur Stagiaire | Août-Novembre 2020
+              </p>
+              Participation au projet Trott du 3 août au 27 Novembre 2020. Equipe de 5 personnes.
+              Le but était de réaliser une Application Mobile en React-Native à partir d'un application web en React.
               <p className="TitleInText">
                 Développeur Stagiaire | Novembre 2019
               </p>
