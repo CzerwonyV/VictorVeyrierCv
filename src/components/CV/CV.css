@@ -98,6 +98,42 @@ p{
     text-align: justify;
   }
 
+  #logoHTML {
+    color: #e34f26;
+  }
+
+  #logoCSS3 {
+    color: #2776d3;
+  }
+
+  #logoJS {
+    color: #f0db4f;
+  }
+
+  #logoReact {
+    color: #5ed3f3;
+  }
+
+  #logoNodeJS {
+    color: #639a58;
+  }
+
+  #logoAWS {
+    color: #ec912d;
+  }
+
+  #logoBootstrap {
+    color: #533b78;
+  }
+
+  #logoGit {
+    color: #e94e31;
+  }
+
+  .WLA {
+    font-size: 1.2rem;
+  }
+
   @media screen and (max-width: 586px) {
     .CVContent {
       display: flex;
