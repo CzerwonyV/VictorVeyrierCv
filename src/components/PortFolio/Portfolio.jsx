@@ -1,11 +1,13 @@
 import React from "react";
 import Cards from "./SiteCard/Card";
 import TwitterTimeline from "react-twitter-embedded-timeline";
+import NavBarCV from "../NavBar/NavBar";
 import "./Portfolio.css";
 
 const Portfolio = () => {
   return (
     <>
+      <NavBarCV />
       <div className="PortFolioContent">
         <div className="ActuContent">
           <div className="ActuGauche">

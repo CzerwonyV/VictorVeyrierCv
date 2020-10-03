@@ -22,10 +22,12 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import "./CV.css";
 import BtnDL from "../Btn/BtnDL";
+import NavBarCV from "../NavBar/NavBar";
 
 const CV = () => {
   return (
     <>
+      <NavBarCV />
       <div className="CVContent">
         <div className="LeftPart">
           <div className="TextGroup">

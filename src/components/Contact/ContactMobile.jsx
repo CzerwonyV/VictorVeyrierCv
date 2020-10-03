@@ -10,10 +10,12 @@ import {
   faEnvelope,
   faFolder
 } from "@fortawesome/free-regular-svg-icons";
+import NavBarCV from "../NavBar/NavBar";
 
 const ContactMobile = () => {
   return (
     <>
+      <NavBarCV />
       <div className="ContactContent">
         <ListGroupItem className="ListGroupItem" id="ListGroupItem1">
           <a
