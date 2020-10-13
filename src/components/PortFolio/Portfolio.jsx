@@ -20,9 +20,7 @@ const Portfolio = () => {
               <TwitterTimeline widgetId="TLContent" user="CzerwonyV" width="400" height="400" />
             </div>
           </div>
-          <div>
             <Cards/>
-          </div>
         </div>
       </div>
     </>
