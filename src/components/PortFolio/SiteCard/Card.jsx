@@ -54,12 +54,13 @@ const CardContent = styled.section`
   margin-bottom: 4rem;
   margin-left: 3rem;
   margin-right: 3rem;
+  position: relative;
+  border-radius: 0.25rem;
 `;
 
 const CardImg = styled.img`
   width: 100%;
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
+  padding: 0.5rem;
 `;
 
 const CardName = styled.h1`
