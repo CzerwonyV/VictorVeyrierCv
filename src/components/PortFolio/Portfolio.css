@@ -80,4 +80,27 @@
       margin-bottom: -1vh;
   }
   }
+
+.SafariOnlyP { 
+  display: none;
+}
   
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) {
+    .SafariOnly { 
+        display: none;
+    }
+    .SafariOnlyP {
+      display: block;
+      color: #FFF;
+      font-family: "Cooper Hewitt";
+      display: flex;
+      align-content: center;
+      justify-content: center;
+    }
+    .AppContent {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+  }
+}}
