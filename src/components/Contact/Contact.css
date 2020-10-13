@@ -28,6 +28,11 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+.ContactMobileContent {
+  background-color: #1d1d1d;
+  height: 100vh;
+}
+
 @media screen and (max-width: 767px) {
   .list-group-item {
     background-color: white !important;
