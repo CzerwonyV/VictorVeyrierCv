@@ -14,7 +14,7 @@ import NavBarCV from "../NavBar/NavBar";
 
 const ContactMobile = () => {
   return (
-    <>
+    <div className="ContactMobileContent">
       <NavBarCV />
       <div className="ContactContent">
         <ListGroupItem className="ListGroupItem" id="ListGroupItem1">
@@ -69,7 +69,7 @@ const ContactMobile = () => {
           &nbsp;06 04 19 79 97
         </ListGroupItem>
       </div>
-    </>
+    </div>
   );
 };
 
