@@ -90,7 +90,6 @@ const UrlContainer = styled.div`
   flex-direction: row;
   background: linear-gradient(to left top, #1D1D1D, #363636);
   border-radius: 0.25rem;
-  margin: 0.5rem;
   align-content: flex-end;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 `;
