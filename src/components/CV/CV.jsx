@@ -32,7 +32,8 @@ const CV = () => {
         <div className="LeftPart">
           <div className="TextGroup">
             <p className="TextMotivDestock">
-            Je suis à la recherche d'un emploi de développeur à partir du 27 novembre dans la région parisienne ou dans la Marne (Châlons, Reims). Je suis très motivé et aurai à cœur de m'investir dans le travail qui me sera confié.</p>
+              Je suis à la recherche d'un emploi de développeur dans la région parisienne ou dans la Marne (Châlons, Reims). Je suis très motivé et aurai à cœur de m'investir dans le travail qui me sera confié.
+            </p>
             <h2 className="TitleGroup">COMPETENCES</h2>
             <p>
               <p className="TitleInText">Compétences Développement&nbsp;:</p>
@@ -138,7 +139,7 @@ const CV = () => {
         <div className="RigthPart">
           <div className="TextGroup">
             <p className="TextMotivMobil">
-              Je suis disponible et très motivé pour un stage de 4 mois à partir du 3 août dans la région parisienne, dans la Marne (Châlons,Reims) ou à l'international (Canada,USA).
+              Je suis à la recherche d'un emploi de développeur dans la région parisienne ou dans la Marne (Châlons, Reims). Je suis très motivé et aurai à cœur de m'investir dans le travail qui me sera confié.
             </p>
             <h2 className="TitleGroup TitleProject">PROJET WEB<BtnDL /></h2>
             <p className="RigthPartText">
